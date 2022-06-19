@@ -1,0 +1,39 @@
+{
+  "name": "coursework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexandr1807/Coursework.git"
+  },
+  "keywords": [
+    "mern",
+    "react"
+  ],
+  "author": "Alexander Cyganov <alexandrcyganov18@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexandr1807/Coursework/issues"
+  },
+  "homepage": "https://github.com/Alexandr1807/Coursework#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.7",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.1",
+    "http-proxy-middleware": "^2.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.8"
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.1",
+    "nodemon": "^2.0.16"
+  }
+}

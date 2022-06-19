@@ -1,0 +1,5 @@
+.app__wrapper {
+    height: 100vh;
+    background-image: url("./images/space.jpg");
+    background-repeat: repeat;
+}
